@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n '$'p iacta
+sort iacta | tail -n | uniq -d
